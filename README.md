@@ -58,12 +58,10 @@ want transparency.
 
 ## How to configure dynamically with Xresources
 
-xrdb patch is removed in this build, so you can't use Xresources. I don't switch
+You can't! :-) Xresource patch is removed in this build. I don't switch
 themes or care much about terminal colours honestly, so I don't find this very
 usefull. I would rather spare my cpu of parsing xrdb settings.
 
-My current configuration for colours is Solarized dark, font used is Anonymour
-Pro at size 18 (because I am old and have problems with tiny terminal fonts).
 Alpha is set to be completely opaque, but you can easily change this by passing
 command line argument, for example: st -A 0.8, or just recompile with desired alpha.
 The `alpha` value (for transparency) goes from `0` (transparent) to `1`
