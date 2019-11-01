@@ -10,7 +10,7 @@ reference for applying patches).
 
 + **scrollback** with `alt-↑/↓` or `alt-pageup/down` or just mousewheel (without holding shift or any other modifier)
 + OR **vim-bindings**: scroll up/down in history with `alt-k` and `alt-j`. Faster with `alt-u`/`alt-d`.
-+ **zoom/change font size**: same bindings as above, but holding down alt as well. `alt-home` returns to default
++ **zoom/change font size**: same bindings as above, but holding down ctrl+shift or alt+mouse wheel. `alt-home` returns to default
 + **copy/paste text** is changed to Emacs-ish bindings. **Copy** with `ctrl-w` or `alt-w`, **paste** is `ctrl-y` or `shift-insert`
 + **delete** key will delete one character to the right. You can hold down alt/ctrl to delete form cursor to the end/beginning of the word.
 + **backspace** key will delete one character to the left. Holding down alt/ctrl will delete form cursor to the beginning/end of the word (yes it's **delete** reversed).
