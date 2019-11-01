@@ -73,9 +73,15 @@ but I left the path sit there.
 
 ## Aditional notes
 
+Custom changes are done in config.h rather than config.def.h.
+
 It is quite easy to add back Luke's features I don't use. If you wish to use those,
 I have just commented out his coe (I tested it, but it wasn't for me), so you
 can uncomment and recompile, it worked nice when I tested.
+
+If you prefer to compile st for small size (-Os), change flags in config.mk. It
+can shave off about 10k ~ 20k from the binary. Current flags are -Ofast -march=native -mtune=native.
+I am not sure it really matters, anyway, cool to test.
 
 ### Colors
 
