@@ -1,3 +1,4 @@
+/* -*- c-file-style: "linux" -*- */
 /* See LICENSE for license details. */
 
 enum win_mode {
