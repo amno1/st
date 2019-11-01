@@ -1,9 +1,8 @@
 # My personlized build of st
 
-This build is pretty much based on Luke's st build, but customized from original st git sources, rather then being a Luke's fork.
-
 The [suckless terminal (st)](https://st.suckless.org/) with some additional, very opinionated and personal features (mostly cosmetics):
 
+This build is pretty much based on [Luke's st build](https://github.com/LukeSmithxyz/st), but customized from original st git sources, rather then being a Luke's fork.
 ## Bindings for
 
 + **scrollback** with `alt-↑/↓` or `alt-pageup/down` or just mousewheel (without holding shift or any other modifier)
