@@ -25,8 +25,8 @@ This build is pretty much based on [Luke's st build](https://github.com/LukeSmit
 
 ## Other st patches & custom changes
 
-+ Vertcenter
 + Scrollback
++ Scrollback with mouse
 + font2
 + updated to latest version 0.8.2
 + st-no-bold-colors (to get correct Solarized colors)
@@ -40,7 +40,7 @@ This build is pretty much based on [Luke's st build](https://github.com/LukeSmit
 ## Installation for newbs
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/amno1/st
 cd st
 sudo make install
 ```
