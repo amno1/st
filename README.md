@@ -1,4 +1,4 @@
-# My Personal Build of st
+# My Personal st Build
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional, very opinionated and personal features (mostly cosmetics):
 
@@ -73,12 +73,9 @@ but I left the path sit there.
 
 ## Aditional notes
 
-It is quite easy to add back Luke's removed features if you wish to use those,
-I have just commented out patch for external pipe, so if you really need to
-copy/paste/open links from st, you can uncomment and recompile, it worked nice
-when I tested. Alpha is a little bit more work to remove, so I have left it in
-even though I don't use it myself. It works fine here (with compiz), but I just
-don't need it.
+It is quite easy to add back Luke's features I don't use. If you wish to use those,
+I have just commented out his coe (I tested it, but it wasn't for me), so you
+can uncomment and recompile, it worked nice when I tested.
 
 ### Colors
 
