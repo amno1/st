@@ -1,4 +1,6 @@
-# My personlized build of st pretty much based on Luke's st build, but customized from original st git sources, rather then being a Luke's fork.
+# My personlized build of st
+
+This build is pretty much based on Luke's st build, but customized from original st git sources, rather then being a Luke's fork.
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional, very opinionated and personal features (mostly cosmetics):
 
