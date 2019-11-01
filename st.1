@@ -4,6 +4,8 @@ st \- simple terminal
 .SH SYNOPSIS
 .B st
 .RB [ \-aiv ]
+.RB [ \-A
+.IR alpha ]
 .RB [ \-c
 .IR class ]
 .RB [ \-f
@@ -54,6 +56,9 @@ is a simple terminal emulator.
 .TP
 .B \-a
 disable alternate screens in terminal
+.TP
+.BI \-a " alpha"
+Specify valude for st window opacity in range 0.0 (transparent) - 1.0 (opaque) (default 1.0).
 .TP
 .BI \-c " class"
 defines the window class (default $TERM).
@@ -159,6 +164,9 @@ Copy the selected text to the clipboard selection.
 .TP
 .B Ctrl-Shift-v
 Paste from the clipboard selection.
+.TP
+.B Mouse-wheel
+Scroll window up or down.
 .SH CUSTOMIZATION
 .B st
 can be customized by creating a custom config.h and (re)compiling the source
@@ -173,4 +181,3 @@ See the LICENSE file for the terms of redistribution.
 .BR stty (1)
 .SH BUGS
 See the TODO file in the distribution.
-
