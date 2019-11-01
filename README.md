@@ -1,4 +1,4 @@
-# My personlized buidl of st based on Luke's build - the simple (suckless) terminal
+# My personlized build of st based on Luke's build - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional, very opinionated and personal features (mostly cosmetics):
 
