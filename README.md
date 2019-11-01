@@ -1,9 +1,6 @@
-# My personlized build of st based on Luke's build - the simple (suckless) terminal
+# My personlized build of st pretty much based on Luke's st build, but customized from original st git sources, rather then being a Luke's fork.
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional, very opinionated and personal features (mostly cosmetics):
-
-## Unique features (using dmenu)
-+ I don't use those, so that is removed
 
 ## Bindings for
 
